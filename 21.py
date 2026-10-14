@@ -1,0 +1,5 @@
+move = input()
+a, b = move.split("-")
+x = abs(ord(a[0]) - ord(b[0]))
+y = abs(int(a[1]) - int(b[1]))
+print("верно" if x == 1 and y == 2 or x == 2 and y ==1 else "ошибка")
